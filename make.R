@@ -52,7 +52,7 @@ library(usethis)
 
 
 # pkg <- as.package("C:/Users/zhouy/Documents/Gitee-PKU/CSTE/CSTE-main/CSTE-main/")
-pkg <- as.package("C:/Users/zhouy/Documents/GitHub-Phsoft/pkg/tteICE")
+pkg <- as.package("C:\\Users\\zhouy\\Documents\\tteICE")
 
 ##***********
 document(pkg)

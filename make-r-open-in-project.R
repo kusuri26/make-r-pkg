@@ -38,7 +38,7 @@ example("surv.tteICE", package = "tteICE")
 
 
 #### create manual
-# system("R CMD build .")
+system("R CMD build .")
 system("R CMD Rd2pdf .")
 system("R CMD check --as-cran .")
 

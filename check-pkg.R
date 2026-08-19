@@ -9,7 +9,7 @@ library(devtools)
 library(pkgdown)
 library(roxygen2)
 
-# pkg <- as.package("C:\\Users\\zhouy\\Documents\\GitHub-Phsoft\\pkg\\tteICE")
+# pkg <- as.package("C:\\Users\\zhouy\\Documents\\Yuhao\\Rpkg-submit\\tteICE")
 # check(document = TRUE, vignettes = FALSE,build_args = "--no-build-vignettes")
 
 #### create manual
@@ -24,8 +24,8 @@ library(roxygen2)
 # devtools::build()
 # devtools::check_built("C:\\Users\\zhouy\\Documents\\GitHub-Phsoft\\pkg\\tteICE_1.1.0.tar.gz")
 
-system("R CMD build tteICE")
-system("R CMD check tteICE_1.1.2.tar.gz")
+# system("R CMD build tteICE")
+system("R CMD check tteICE_1.1.5.tar.gz")
 
 library(spelling)
 setwd("~/GitHub-Phsoft/pkg/tteICE")
