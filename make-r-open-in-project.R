@@ -15,7 +15,7 @@ library(roxygen2)
 
 #### check the whole package
 ## main: load pkg document and check pkg
-document()
+# document()
 load_all()
 
 # Sys.which("quarto") == ""
