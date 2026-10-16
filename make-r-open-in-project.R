@@ -9,13 +9,14 @@ library(devtools)
 library(pkgdown)
 library(roxygen2)
 # library(usethis)
-# pkg <- as.package("C:/Users/zhouy/Documents/GitHub-Phsoft/tteICE")
+# 
+pkg <- as.package("C:/Users/zhouy/Documents/002Rpkg/ProgDiagMeta")
 
 # use_gpl_license(version = 3, include_future = TRUE)
 
 #### check the whole package
 ## main: load pkg document and check pkg
-# document()
+document()
 load_all()
 
 # Sys.which("quarto") == ""
@@ -59,8 +60,8 @@ update_wordlist()
 
 
 ## load data --> /data
-# dat <- load("data/bmt.rda")
-# use_data(bmt, overwrite = TRUE)
+Ki67_data <- load("data/Ki67_data.rda")
+use_data(Ki67_data, overwrite = TRUE)
 # use_package("DT")
 # use_package("psych", type = "Depends")
 # use_package("cmprsk", type = "Depends")
